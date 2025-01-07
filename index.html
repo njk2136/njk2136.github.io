@@ -1,0 +1,494 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Arial; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Arial; -webkit-text-stroke: #000000; min-height: 16.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;html&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!--- Start the Javascript that does all the hard work! ---&gt;</span></p>
+<p class="p1"><span class="s1">&lt;script type="text/javascript" charset="UTF-8"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">var fixation_address = "http://www.wilmabainbridge.com/datasets/memorabilitycollector/fixation.jpg";</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">var images = new Array("https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_Ji6L7ZrKli8fpTY","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_v2QeqLO1ZndTz9L","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_9jtBalhvgheFHAk","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_6zJQr4XnmhY5BrO","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_7iIf7Db56y9Lis7","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_O3O254uleymWWrq","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_whehFauh3LTNtEn","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_8S5HUFtVq80nhzh","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_ejRyWcBZXtkZGyp","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_iU9pUz4NLmdrVRa","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_eHDiLVspAsFeHoP","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_t1LxyGGoSGagF2m","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_LrtralunlF5ClEd","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_fOW5d0t5aFkO0nd","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_C3u2fvWlKKoWCxk","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_cVxN6kj8USjzMZt","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_bkynIvaULzSxpfD","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_QDjdHfVmie7ghlb","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_92zMg8JDYgdUuUe","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_lYIVyHcm45gndzm","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_P1igNy4n4VwjHRM","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_cL6mCA5FAqGmEK7","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_DepMvMokToYe4lp","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_lV392fYzSFRG09m","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_mfzFUQG5lVi517F","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_0KJ776Ogs7XAKvj","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_btJ63kbM5Tmc1ZK","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_Ucq8e5ScDP1IfYG","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_gzXBRFjoXmsCBxK","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_gB0g8ekZu6IMqsi","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_iMqBphMMvH0If2y","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_HZR6W5Ls0vfldjF","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_PuZNdizvhJdUBbn","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_KH5xG0uav6FF2ay","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_A31dxFNGmyCltju","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_dxRgVXLrw6VqnFG","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_UH1n94DuzuZL6Ai","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_RBUi6A4r6QpOxYI","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_JJDD3PaeVFrnmEM","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_lCh32zIzrbaO7pB","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_Keb6cm34cglQPJ2","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_2SFG0LHR517GvXp","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_m9UShPfyoRJ2nXX","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_I7zJqd46cJPwzaj","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_aRWGMc01xTZMvlJ","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_1QXdPZDu5G27I4f","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_WXNWDipa2O3oNVY","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_EkoA2FzVYJCq1HD","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_8A15u3q5RdcDyY6","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_AEGjOdS0lwoXcvS","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_VxLRfEeYYSv40le","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_qdxzM4Y2VyEMOv4","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_p7AEjxeSiKaUQW4","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_U4zrdqh71Bw6kFj","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_ZLtyQl1ehzBr5Th","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_nfHjlhXnV4ZFUsy","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_da1D8AJZAQSTWOq","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_0EGkiutRLXmm6i5","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_gw383XewWpyOtQ0","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_t2HDNMAygeIM3ab","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_4n7VS6HJMDqMEGL","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_phBWPXWU14NfQ2n","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_4vD55Vpzo9TwHHC","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_HB1G5YE16gMMFbt","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_2zelQXYwuhG075p","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_nCNAyL7WxciKPeV","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_xbiqYzso4l2OV8d","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_jAYV9XnV929R3NB","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_BOb2aoZoebzMjKj","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_t8DBhUPFVxzwVxg","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_OqzkPS4cmNo6MGY","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_aV9GZPqPNMSdYJe","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_rw5ml3VDpF8JN1s","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_AvqRmQBD9xRJ64a","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_iM56DE7rlbl4kl1","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_gJOs13Q7r1E2G8u","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_nVMjAUpVkkOregJ","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_i2i5Pv23OCeMMkq","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_qSFwMSaokjJCSVS","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_hnzG26pLhW9EW44","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_TJd8neuQv9ZYgJU","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_9Im54fpE98RjDcy","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_6O4Rbtc8Eu359eb","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_NaeW37HVouSYbDe","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_D7oqC0f1q2GHfhH","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_IDLLhWZW3831Rwx","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_BYL3nc5eqcdOFY2","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_2dwhKd0bEhdJYlw","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_NTBoYdHsNrQSdIu","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_TNxigUkGoS2vUpp","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_7h8Q5Cv1Z2pZN50","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_8ANeZqowVfYAfMM","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_6wkZEx9niQ3OqOO","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_bbo2RExzU4O1yUP","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_HAQizbQqt2dnBQG","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_wqAEYtKyi3a5AA9","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_hFPgpDTvfRlZ3K0","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_wUQa1a244tT13XJ","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_akvfwic7JGOMyaR","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_l0vw61SnB1YsMwZ","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_xY91hByGzBj3Bmu","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_aD8sDylfTH8oERn","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_31OlHl041RuXSXm","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_mefFAsXpSo4OrrE","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_epcPLJWhPMKBwAH","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_EXei8JRetxCuLBA","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_jEvdqhCiHmfVrfP","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_KyenFVnoAr0rf3u","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_XF9fePZdCI7IesP","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_lT26Oq1slJvGLqm","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_iuoCvkIkCNz8hzc","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_hfu6cfoIg0nKKLs","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_EGvuujkXFEPiS5F","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_TOOXrDuUcfLhdMo","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_3mgXmFGaktj2IJi","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_fknKESOCPwq2Rhu","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_p0PV2T0hqm7CqXP","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_CTgToM0EadDjmVj","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_lS29R8ZRj1Ro6tR","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_3aPonKxnjjvGoNP","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_i4fEi8aVKK0JQxr","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_dzh50JBrA0xOWj8","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_oqZZc1Se88Q09BE","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_wOVq8WiFMZ9bs33","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_1B3MyvVNyvFFHQq","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_2Sstcm6e5DsXh2d","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_1xwSibJ0DNjrhKy","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_GL5ndBqrShZrBTj","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_FBJc478y12p9Smh","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_uE6uqYnKAzo6JFw","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_h8DU2JJa1j94Uby","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_GXrcva7lAlSonBL","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_ZgGpaZDGp2B8FwW","https://neu.co1.qualtrics.com/ControlPanel/File.php?F=F_7ullIVGrfVsgUWE");</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">var stimtime = 1400; // in milliseconds</span></p>
+<p class="p1"><span class="s1">var isi = 1200; // in milliseconds</span></p>
+<p class="p1"><span class="s1">var delayBetTargets = 120; // in seconds</span></p>
+<p class="p1"><span class="s1">var delayBetVigilance = 5; // in trials. The size of image blocks</span></p>
+<p class="p1"><span class="s1">var keytoWatch = "r"; // case doesn't matter</span></p>
+<p class="p1"><span class="s1">var subsperim = 20; // how many subjects you want per image</span></p>
+<p class="p1"><span class="s1">var payperhour = 5; // how much money you want to pay per hour</span></p>
+<p class="p1"><span class="s1">var vigilancecutoff = 10; // the number of vigilances they're allowed to fail before being booted</span></p>
+<p class="p1"><span class="s1">var facutoff = 20; // the number of false alarms they're allowed to make before being booted</span></p>
+<p class="p1"><span class="s1">var timeBetweenBreaks = 300; // in seconds</span></p>
+<p class="p1"><span class="s1">var maxBreakTime = 300; // in seconds </span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// text set by the experimenter</span></p>
+<p class="p1"><span class="s1">var failuretext = "&lt;h2&gt;Finished!&lt;/h2&gt;Unfortunately you made too many errors and the game has ended. Press the &lt;b&gt;SUBMIT HIT&lt;/b&gt; button to get credit for the hit.&lt;br&gt;";</span></p>
+<p class="p1"><span class="s1">var donetext = "&lt;h2&gt;Finished!&lt;/h2&gt;You have finished the task - great job! Press the &lt;b&gt;SUBMIT HIT&lt;/b&gt; button to get credit for the hit.&lt;br&gt;";</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// global variables that are calculated later based on parameters</span></p>
+<p class="p1"><span class="s1">var trialsBetTargets = 30; // in num trials</span></p>
+<p class="p1"><span class="s1">var numfoils = 0;</span></p>
+<p class="p1"><span class="s1">var numtargets = 0;</span></p>
+<p class="p1"><span class="s1">var numtotalsubs = 0;</span></p>
+<p class="p1"><span class="s1">var allc = 0; // overall sequence counter when building the sequence</span></p>
+<p class="p1"><span class="s1">var experimentlength = 0;</span></p>
+<p class="p1"><span class="s1">var paypersub = 0;</span></p>
+<p class="p1"><span class="s1">var totalpay = 0;</span></p>
+<p class="p1"><span class="s1">var trialsBetweenBreaks = 0;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// full image sequence variables (these are the whole stream, with fixations built in)</span></p>
+<p class="p1"><span class="s1">// deal with these for when running the experiment</span></p>
+<p class="p1"><span class="s1">var fullsequence = []; // the sequence of everything (images plus fixation)</span></p>
+<p class="p1"><span class="s1">var timesequence = []; // the sequence of the timings</span></p>
+<p class="p1"><span class="s1">var typesequence = []; // the sequence of the image types</span></p>
+<p class="p1"><span class="s1">var perfsequence = []; // the sequence of the performance</span></p>
+<p class="p1"><span class="s1">var breakCounter = 0;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// image-only sequence variables (the ordering without fixation or anything extra you add in)</span></p>
+<p class="p1"><span class="s1">// deal with these when designing the stimulus presentation</span></p>
+<p class="p1"><span class="s1">var imtypeseq = []; // the sequence of the image types</span></p>
+<p class="p1"><span class="s1">var allimgseq = []; // the sequence of all the images</span></p>
+<p class="p1"><span class="s1">var performanceseq = []; // the sequence of performance</span></p>
+<p class="p1"><span class="s1">var imCount = -1; // trial number that is being shown. Starts from -1 because of setTimeOut quirks</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// tracking performance (to determine if they can continue)</span></p>
+<p class="p1"><span class="s1">/* NOTE: This could be implemented in several different ways. For now I will do it as kicking someone out if they reach a certain number of failures, though you could imagine many other ways: 1) do it based on proportion of failures, 2) resetting if they get something right, 3) kicking out based on back-to-back failures, etc. You can try fiddling with determineFailure() to implement your own method!</span></p>
+<p class="p1"><span class="s1">*/</span></p>
+<p class="p1"><span class="s1">var vigilancefails = 0;</span></p>
+<p class="p1"><span class="s1">var falsealarmcounts = 0;</span></p>
+<p class="p1"><span class="s1">var kickedOut = 0;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// output variables</span></p>
+<p class="p1"><span class="s1">var imgstring = "";</span></p>
+<p class="p1"><span class="s1">var imtypestring = "";</span></p>
+<p class="p1"><span class="s1">var perfstring = "";</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// ID constants for image type</span></p>
+<p class="p1"><span class="s1">const FIXATION = 0;</span></p>
+<p class="p1"><span class="s1">const TARGET = 1;</span></p>
+<p class="p1"><span class="s1">const REPEAT = 2; // target repeat</span></p>
+<p class="p1"><span class="s1">const FILLER = 3;</span></p>
+<p class="p1"><span class="s1">const VIGILANCE = 4; // vigilant repeat</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// ID constants for performance</span></p>
+<p class="p1"><span class="s1">const HIT = 11;</span></p>
+<p class="p1"><span class="s1">const MISS = 12;</span></p>
+<p class="p1"><span class="s1">const FALSEALARM = 13;</span></p>
+<p class="p1"><span class="s1">const CORRECTREJECTION = 14;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">/****************************************Functions*****************************************/</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// key press listener</span></p>
+<p class="p1"><span class="s1">document.onkeydown = function(key){ processResponse(key);};</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// preload and then start</span></p>
+<p class="p1"><span class="s1">function buttonPress(){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>// disable the Start Button once started</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>document.getElementById("startbutton").innerHTML = "Experiment Running...";</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>document.getElementById("startbutton").disabled = true;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>// now start the experiment</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>preloadEverything();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>document.getElementById("performancerecord").innerHTML = "Press the &lt;b&gt;R key&lt;/b&gt; to start. If it doesn't work, make sure to click in this browser window first.";</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// recursive function that shows the images in a sequence</span></p>
+<p class="p1"><span class="s1">function animateSequence(){</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>// save the performance of the previous trial</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>saveProgress();</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>// check if they've failed too much</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>determineFailure();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>if (kickedOut){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>showFailure();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>return;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>// check if it's time for a break</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>if (breakCounter &gt;= trialsBetweenBreaks) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>giveBreak(0);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>breakCounter = -1;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>return;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>breakCounter++;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>imCount++; // have to increment before the trial because of setTimeOut</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>if (imCount == fullsequence.length){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>showEnding();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>return;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>document.getElementById("stimulus").src = fullsequence[imCount];</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>setTimeout("animateSequence()", timesequence[imCount]);</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// preload and calculate everything</span></p>
+<p class="p1"><span class="s1">function preloadEverything() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>calculateProps(); // calculate target and filler proportions</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>/* NOTE: If you decide to manually separate the targets and foils, set their amounts here to </span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>override what was calculated in calculateProps(). We still need to run calculateProps() for other values.</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>For example:</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>numtargets = 100;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>numfoils = 500;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>*/</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>makeImSequence(); // get the image order</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>calculateTotalPay(); // calculate payment</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>buildFullSequence(); // build the sequence with the images and fixation</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>// document.getElementById("startbutton").disabled = false;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// allows the participant to take a break</span></p>
+<p class="p1"><span class="s1">function giveBreak(going){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>if (going){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>document.getElementById("performancerecord").innerHTML = '';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>setTimeout("animateSequence()", timesequence[imCount])</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>return;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>document.getElementById("stimulus").src = fixation_address;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>document.getElementById("performancerecord").innerHTML = '&lt;h2&gt;Break time!&lt;/h2&gt;Good job - you will now get a break. Please do not break for longer than ' + maxBreakTime + ' seconds or the HIT will continue without you. Press "&lt;b&gt;C&lt;/b&gt;" to continue.';</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>setTimeout("giveBreak(1)", maxBreakTime*1000);</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// builds the full sequence with both images and fixations, as well as timings</span></p>
+<p class="p1"><span class="s1">function buildFullSequence(){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var i = 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var imcounter = 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>while (i &lt; imtypeseq.length*2){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>// add an image</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>fullsequence[i] = images[allimgseq[imcounter]]; // get the image in that order</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>typesequence[i] = imtypeseq[imcounter];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>timesequence[i] = stimtime;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfsequence[i] = performanceseq[imcounter];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>i++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imcounter++;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>// add a fixation</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>fullsequence[i] = fixation_address;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>typesequence[i] = FIXATION;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>timesequence[i] = isi;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfsequence[i] = FIXATION;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>i++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>console.log("Done building the full sequence.");</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// get the key and respond</span></p>
+<p class="p1"><span class="s1">function processResponse(key){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>if(String.fromCharCode(key.keyCode).toLowerCase() == keytoWatch.toLowerCase()){ // if they pressed the desired key</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>var trialtype = typesequence[imCount];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>if (imCount&lt;0) { // they're pressing to start</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>document.getElementById("performancerecord").innerHTML = "";</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>animateSequence();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>if ((trialtype == FIXATION) &amp;&amp; imCount &gt; 0) { // if it's fixation, get their response for the prior trial</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>trialtype = typesequence[imCount-1];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>if (trialtype == REPEAT | trialtype == VIGILANCE) { // they correctly pressed the button!</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfsequence[imCount] = HIT;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>console.log("Hit!");</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>} else if (trialtype == TARGET | trialtype == FILLER) { // they shouldn't have pressed</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfsequence[imCount] = FALSEALARM;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>console.log("False alarm!");</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// decide if they've failed too much</span></p>
+<p class="p1"><span class="s1">function determineFailure(){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>if (perfsequence[imCount] == FALSEALARM){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>falsealarmcounts++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>console.log("False alarm count: " + falsealarmcounts);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>if (falsealarmcounts &gt;= facutoff){ // they've false alarmed too often!</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>kickedOut = 1;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>if (perfsequence[imCount] == MISS &amp; typesequence[imCount] == VIGILANCE){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>vigilancefails++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>console.log("Vigilance miss count: " + vigilancefails);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>if (vigilancefails &gt;= vigilancecutoff){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>kickedOut = 1;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// visually show their failure!</span></p>
+<p class="p1"><span class="s1">function showFailure(){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>document.getElementById("performancerecord").innerHTML = failuretext;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>propcompleted = imCount/fullsequence.length*100;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>propcompleted = propcompleted.toFixed(2); // round to 2 decimal places</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>document.getElementById("endingout").value = "failed@" + propcompleted + "%";</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// end the game if they make it to the end!</span></p>
+<p class="p1"><span class="s1">function showEnding(){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>document.getElementById("performancerecord").innerHTML = donetext;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>document.getElementbyId("endingout").value = "completed";</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// create the memorability-based image sequence</span></p>
+<p class="p1"><span class="s1">function makeImSequence(){</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>/* NOTE: This code assumes you want to get the memorability scores of all of your images. If you instead have images you already know will be sorted as target vs. filler, you can edit that here. To do that:</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>1. Input images as targets followed by fillers (in the textbox list of images in the other frame, or at the top with var images = ...</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>2. Set numtargets to your number of targets</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>3. Remove allImArray = shuffleArray(allImArray).</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>The reason I haven't implemented this is because this depends on you choosing a good number of targets and fillers (rather than me calculating it for you here) and so it takes some thought</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>*/</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var allImArray = populateArray(0, images.length);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>allImArray = shuffleArray(allImArray); // Comment this if you want to manually determine the targets and fillers</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var targetIms = allImArray.slice(0, numtargets);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var fillerIms = allImArray.slice(numtargets, allImArray.length);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var imblock = [];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var typeblock = [];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var perfblock = [];</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>targetIms = shuffleArray(targetIms);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>repeatIms = shuffleArray(targetIms);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>fillerIms = shuffleArray(fillerIms);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>tc = 0; // target counter</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>fc = 0; // filler counter</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>ofbc = 0; // old filler block counter</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>rc = 0; // repeat counter</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>allc = 0; // overall sequence counter</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>// now make pseudorandomized image blocks of 4 trials each</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>oldfillblock = [];</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>while (rc &lt; repeatIms.length &amp; fc &lt; fillerIms.length){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>var c = 0; // mini-block counter</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>if (tc &lt; targetIms.length) { // TRIAL 1: a new targets (if there are still new ones to add)</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imblock[c] = targetIms[tc]; </span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>typeblock[c] = TARGET;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfblock[c] = CORRECTREJECTION; // default: no response means CR</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>tc++; c++; allc++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>} else { // if we're out of new targets, put in a regular filler</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imblock[c] = fillerIms[fc];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>typeblock[c] = FILLER;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfblock[c] = CORRECTREJECTION; // default: no response means CR</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>oldfillblock[ofbc] = fillerIms[fc];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>c++; allc++; ofbc++; fc++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>if (oldfillblock.length &gt; 0) { // TRIAL 2: vigilance repeat from the last block</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>oldfillblock = shuffleArray(oldfillblock);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imblock[c] = oldfillblock[0];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>typeblock[c] = VIGILANCE;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfblock[c] = MISS; // default: no response means they missed it</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>c++; allc++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>oldfillblock = []; ofbc = 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>} else { // if there was no last block, put in a regular filler</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imblock[c] = fillerIms[fc];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>typeblock[c] = FILLER;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfblock[c] = CORRECTREJECTION;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>oldfillblock[ofbc] = fillerIms[fc]; </span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>c++; allc++; ofbc++; fc++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>if (allc &gt; trialsBetTargets) { // TRIAL 3: if enough delay has passed, can do target repeats</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imblock[c] = repeatIms[rc];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>typeblock[c] = REPEAT;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfblock[c] = MISS;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>rc++; c++; allc++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>} else{ // if it's not time for the target repeats yet, put in a regular filler</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imblock[c] = fillerIms[fc];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>typeblock[c] = FILLER;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfblock[c] = CORRECTREJECTION;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>oldfillblock[ofbc] = fillerIms[fc]; </span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>c++; allc++; ofbc++; fc++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>for (var i = 0; i &lt; delayBetVigilance-3; i++){ // remaining trials: filler</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>if (fc &lt; fillerIms.length) { // only if there are fillers left to fill</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imblock[c] = fillerIms[fc]; </span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>typeblock[c] = FILLER;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfblock[c] = CORRECTREJECTION;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>oldfillblock[ofbc] = fillerIms[fc];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>c++; allc++; ofbc++; fc++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>[imblock, typeblock, perfblock] = shuffleArrays([imblock, typeblock, perfblock]);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>allimgseq = allimgseq.concat(imblock);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imtypeseq = imtypeseq.concat(typeblock);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>performanceseq = performanceseq.concat(perfblock);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>console.log("Done making the image sequence!");</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// calculate the proportions of targets and foils</span></p>
+<p class="p1"><span class="s1">function calculateProps(){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var trialtime = stimtime + isi;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>trialsBetTargets = Math.floor(delayBetTargets*1000 / trialtime);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var B = trialsBetTargets;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var S = delayBetVigilance;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var C = images.length;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>numfoils = (S-1 + (S-2)*(C+(B/S)-1)-(B/S))/(S-1); // derived formula for how many foils you can have that satisfy your constraints</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>/* Derivation comes from this:</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>variables:</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>C = # images, T = # targets, F = # foils, S = number of trials per block, B = minimum # of trials between targets</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>abbreviations:</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>t = target, f = foil, v = vigilance repeat, r = target repeat</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>F = (first block is 1 t, the rest f) + (blocks before r starts is 1 t, 1 v, the rest f) + (remaining blocks are 1 t, 1 v, 1 r, the rest f) + (except for blocks when you're not showing any new t, put back a f to fill that space)</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>F = (S-1) + (S-2)(B/S - 1) + (S-3)(T) + (T - B/S)<span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>C = T + F</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>F = (S-1) + (S-2)(B/S - 1) + (S-3)(C-F) + (C-F - B/S)</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>...</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>F = (S-1 + (S-2)(C + B/S - 1) - B/S)/(S-1)</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>*/</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>numtargets = C - numfoils;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>numfoils = Math.floor(numfoils);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>numtargets = Math.ceil(numtargets);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>// calculate how many subjects will be needed total</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var proptargets = C / numtargets * subsperim;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>// calculate how many trials before a break</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>trialsBetweenBreaks = Math.ceil(timeBetweenBreaks*1000/trialtime);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>console.log("Calculated the proportions of images.");</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// calculate the total pay for the whole study</span></p>
+<p class="p1"><span class="s1">function calculateTotalPay(){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>// calculate how many subjects will be needed total</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var proptargets = images.length / numtargets;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>numtotalsubs = proptargets * subsperim;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>experimentlength = (allc * (stimtime + isi)/1000)/60;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>paypersub = experimentlength/60 * payperhour;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>totalpay = paypersub * numtotalsubs;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>console.log("Calculated the pay amounts.");</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">function reportVariables(){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var report = " With your " + images.length + " total images, if you want " + delayBetTargets + "s between target images,\n You will need " + numtargets + " targets and " + numfoils + " foils.\n This will result in an experiment that is " + experimentlength + "min long.\n To get " + subsperim + " subjects per target image, you will need " + numtotalsubs + " total subjects.\n At a rate of $" + payperhour + " per hour, each experiment will cost $" + paypersub + ",\n Or $" + totalpay + " for the whole study.";</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>console.log(report)</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// save to the output variables the performance and sequence completed so far</span></p>
+<p class="p1"><span class="s1">function saveProgress(){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>// get rid of the base address again just to shrink the length of the value</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>if (imCount &gt;= 0) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>var tempimg = fullsequence[imCount];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>tempimg = tempimg.substring(tempimg.lastIndexOf("/")+1);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>if (imCount &gt; 0) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imgstring = imgstring + ",";</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imtypestring = imtypestring + ",";</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfstring = perfstring + ",";</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imgstring = imgstring + tempimg;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>imtypestring = imtypestring + typesequence[imCount];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>perfstring = perfstring + perfsequence[imCount];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>document.getElementById("imseqout").value = imgstring;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>document.getElementById("imtypeseqout").value = imtypestring;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>document.getElementById("perfseqout").value = perfstring;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">/*************************************** General useful functions **********************************************/</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// populate an array</span></p>
+<p class="p1"><span class="s1">function populateArray(start, end){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>array = [];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>for (var i = start; i &lt; end; i++){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>array[i] = i;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>return array;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// shuffle an array</span></p>
+<p class="p1"><span class="s1">function shuffleArray(array) {</span></p>
+<p class="p1"><span class="s1">    for (var i = array.length - 1; i &gt; 0; i--) {</span></p>
+<p class="p1"><span class="s1">        var j = Math.floor(Math.random() * (i + 1));</span></p>
+<p class="p1"><span class="s1">        var temp = array[i];</span></p>
+<p class="p1"><span class="s1">        array[i] = array[j];</span></p>
+<p class="p1"><span class="s1">        array[j] = temp;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    return array;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">// shuffle multiple arrays with the same ordering (must all be same length)</span></p>
+<p class="p1"><span class="s1">function shuffleArrays(arrays){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>for (var i = arrays[0].length - 1; i &gt; 0; i--) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>var j = Math.floor(Math.random() * (i + 1));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>for (var an = 0; an &lt; arrays.length; an++) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>var temp = arrays[an][i];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>arrays[an][i] = arrays[an][j];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>arrays[an][j] = temp;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>return arrays;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span></p>
+<p class="p1"><span class="s1">// count the number of occurrences of a value in an array</span></p>
+<p class="p1"><span class="s1">function countOccurences(array, value){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>var counter = 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>for (var i = 0; i &lt; array.length; i++){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>if (array[i] == value){</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>counter++;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>return counter;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;form autocomplete="off"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!--- These are the hidden variables that get outputted to AMT ---&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input type = "hidden" name = "imseq" id = "imseqout" value = ""&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input type = "hidden" name = "imtypeseq" id = "imtypeseqout" value = ""&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input type = "hidden" name = "perfseq" id = "perfseqout" value = ""&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input type = "hidden" name = "ending" id = "endingout" value = ""&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;center&gt;</span></p>
+<p class="p1"><span class="s1">&lt;h1&gt;Memory Test&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;table style="border:1px solid black"&gt;&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;td style="border:1px solid black"&gt;&lt;center&gt;&lt;p&gt;&lt;span id = "instructions"&gt;You will see a stream of images. Press the &lt;b&gt;'r'&lt;/b&gt; key any time you see an &lt;b&gt;image&lt;/b&gt; you saw before. Press when you see the image and not during the '+'. If you make too many errors, the game will finish. This will take approximately 5 minutes.&lt;/span&gt;&lt;/p&gt;&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;tr&gt;&lt;td height=450 width=450 style="vertical-align:middle"&gt;&lt;center&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;span id = "performancerecord"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;div id = "imagesequence"&gt;&lt;img id = "stimulus" src = "http://www.wilmabainbridge.com/datasets/memorabilitycollector/fixation.jpg"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1">&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;h3&gt;&lt;button type = "button" id = "startbutton" onclick = "buttonPress()" autocomplete="off" style="border: 1px solid black; height:70; width:250; border-radius:12px"&gt;Click to Start&lt;/button&gt;&lt;/h3&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;span id = "consentinfo"&gt;By making judgements about these images, you are participating in a study being performed by cognitive scientists in the Blah Blah Lab at Blah Blah University. If you have questions about this research, please contact Dr. Blah at blah@blah.edu. Your participation in this research is voluntary. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.&lt;/span&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;b&gt;Click here to submit your HIT.&lt;/b&gt; Only submit when completed, or you won't get full payment! If you decide to stop halfway, you can click this to end.&lt;br&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;input type = "submit" id="submitbutton" name="Submit HIT" value="Submit HIT"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/center&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/form&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+</body>
+</html>
